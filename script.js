@@ -1,5 +1,15 @@
-function calcular(altura,largura){
-    const calculo = altura*largura
-    document.querySelector('h1').innerText = calculo
+function calculaArea(base, altura) {
+
+    var area = base * altura;
+
+    return area;
+
 }
-calcular(3,10)
+
+var baseRetangulo = 5;
+
+var alturaRetangulo = 5;
+
+var areaRetangulo = calculaArea(baseRetangulo, alturaRetangulo);
+
+console.log("A área do retângulo é: " + areaRetangulo);
